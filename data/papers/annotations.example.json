@@ -1,0 +1,11 @@
+{
+  "smith2024-fig3": {
+    "pdf": "smith2024.pdf",
+    "figure_id": "fig3",
+    "title": "Accuracy by model size",
+    "caption": "Figure 3: Accuracy by model size.",
+    "x": ["1B", "7B", "13B", "70B"],
+    "y": [41.2, 55.0, 58.3, 67.9],
+    "references": ["Optional: a human-written description of the chart, for BLEU/ROUGE."]
+  }
+}

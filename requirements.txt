@@ -1,0 +1,14 @@
+pymupdf>=1.24
+streamlit>=1.40
+pydantic>=2.6
+anthropic>=0.40
+openai>=1.50
+rank-bm25>=0.2.2
+sacrebleu>=2.4
+rouge-score>=0.1.2
+python-dotenv>=1.0
+matplotlib>=3.8
+pytest>=8.0
+# optional: dense retrieval and BERTScore (pull in PyTorch, ~1-2 GB)
+# sentence-transformers>=3.0
+# bert-score>=0.3.13

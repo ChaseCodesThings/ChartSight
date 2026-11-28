@@ -1,0 +1,64 @@
+{
+  "1": {
+    "type": "bar",
+    "caption": "Figure 1: Share of papers with figure alt text by venue (percent).",
+    "x": [
+      "CHI",
+      "ASSETS",
+      "UIST",
+      "CSCW",
+      "arXiv"
+    ],
+    "y": [
+      38.0,
+      61.0,
+      12.0,
+      9.0,
+      3.0
+    ],
+    "xlabel": "Venue",
+    "ylabel": "Papers with alt text (%)"
+  },
+  "2": {
+    "type": "line",
+    "caption": "Figure 2: Hallucinated numbers per 100 sentences across training steps.",
+    "x": [
+      0,
+      1000,
+      2000,
+      3000,
+      4000,
+      5000
+    ],
+    "y": [
+      14.2,
+      9.8,
+      6.1,
+      4.0,
+      3.6,
+      3.5
+    ],
+    "xlabel": "Training step",
+    "ylabel": "Hallucinations per 100 sent."
+  },
+  "3": {
+    "type": "bar",
+    "caption": "Figure 3: Median latency per figure for each pipeline stage (seconds).",
+    "x": [
+      "Detect",
+      "Extract",
+      "Retrieve",
+      "Generate",
+      "Verify"
+    ],
+    "y": [
+      0.4,
+      6.8,
+      0.3,
+      4.1,
+      1.2
+    ],
+    "xlabel": "Pipeline stage",
+    "ylabel": "Median latency (s)"
+  }
+}
